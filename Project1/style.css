@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.title {
+  width: 50px;
+  height: 50px;
+}
+.layout {
+  margin: 30px auto;
+}
+.head-title {
+  margin: 0;
+  font-size: 30px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: right;
+}
+.head {
+  font-size: 15px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: right;
+}
+.image-body {
+  margin-top: 15px;
+  margin-bottom: 25px;
+  text-align: center;
+  clear: left;
+  width: 100%;
+  height: 300px;
+}
+.foot {
+  font-size: 30px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+li {
+  display: inline-block;
+}
+.foot-image {
+  width: 400px;
+  height: 200px;
+}
+li.foot-right {
+  margin-left: 160px;
+  margin-right: auto;
+}
+li.foot-center {
+  margin-left: 90px;
+  text-align: center;
+}
