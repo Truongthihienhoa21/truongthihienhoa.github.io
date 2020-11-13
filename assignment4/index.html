@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quote</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+      integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp"
+      crossorigin="anonymous"
+    />
+    <script src="/script.js"></script>
+  </head>
+  <body onload="init()">
+    <h1 class="text-center text-info">Quote Page</h1>
+    <div id="listQuote" class="container"></div>
+
+    <div class="container">
+      <i class="fab fa-twitter-square fa-3x m-auto text-primary"></i>
+    </div>
+    <div class="d-flex flex-row-reverse">
+      <button
+        id="addQuote"
+        class="p-2 bg-success"
+        style="
+          margin-right: 15px;
+          border: none;
+          border-radius: 2px;
+          color: aliceblue;
+        "
+        onclick="newQuote()"
+      >
+        Add Quote
+      </button>
+    </div>
+  </body>
+</html>
